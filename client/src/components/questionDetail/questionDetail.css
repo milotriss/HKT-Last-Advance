@@ -1,0 +1,51 @@
+.questionsOverlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.questions {
+    width: 80%;
+    height: 900px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    gap: 20px;
+}
+.questions span {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.questions p {
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+    margin: 90px 0;
+}
+.questions button {
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+.questions button:hover {
+    transform: scale(1.05);
+    background-color: #000;
+    color: #fff;
+}
+.questions .next {
+    width: 30%;
+    margin-top: 90px;
+}

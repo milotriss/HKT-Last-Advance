@@ -1,0 +1,64 @@
+.homeOverlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.homeOverlay .home {
+  width: 400px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+.homeOverlay .home h1 {
+  font-size: 40px;
+}
+.homeOverlay .home .homeItemInput {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.homeOverlay .home .homeItemInput input {
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+}
+.homeOverlay .home .homeItemSelect {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.homeOverlay .home .homeItemSelect select {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+}
+.homeOverlay .home a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.homeOverlay .home a:hover {
+  transform: scale(1.05);
+  background-color: #fff;
+  color: #000;
+}
